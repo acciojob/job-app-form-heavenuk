@@ -4,13 +4,42 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Jobappform</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<h1>JOB APP FORM</h1>
+<form method="post">
+
+	<fieldset class="one">
+
+	<label for="name">Name <input type="text"  id="name" required></label><br>
+	<label for="email">Email <input type="email"  id="email" required></label><br>
+	<label for="password">Password <input type="password"  id="password" min="8" required></label><br>
+	<label for="dob">DOB <input type="date"  id="dob"required></label><br>
+	<label for="age">Age <input type="number"id="age" min="15" max="99" required></label><br>
+	<label for="portfolio">Portfolio URL <input type="url" id="portfolio" required></label><br>	
+
+</fieldset>
+
+	<fieldset class="two">
+
+	<label for="gender"><input type="radio"name="gender"> Male</label>
+	<label for="gender"><input type="radio"name="gender"> Female</label><br>
+	<select id="laptop">
+<option>Laptop brands</option>
+<option>Apple</option>
+<option>Asus</option>
+<option>HP</option>
+	</select>
+
+	</fieldset>
+
+</form>
+
+<button>Submit</button>
 
 </body>
-
 </html>
