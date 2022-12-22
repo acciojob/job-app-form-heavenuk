@@ -1,40 +1,36 @@
 .one{
     margin:10px 50px;
-    border:none;
 }
 .two{
-    margin:0 50px;
-    border:none;
+    margin:0 50p
 }
 .one input{
     display:block;
     width:55%;
     margin-top:10px;
 }
+.two {
+margin:20px 50px;
 
-
+}
 
 body {
-    align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin:0px;
     background-color:whitesmoke;
     color: black;
     font-family: Tahoma;
     font-size: 16px;
-    box-sizing:border-box;
+   
   }
   button{
-   margin:1px 70px;
+   margin:10px 50px;
     padding:10px;
     font-size:90%;
 
   }
-  h1{
-    margin:10px 50px;
-  }
+
 select{
-    margin:20px 5px;
-    padding:2px;
+  margin:15px auto;
 }
